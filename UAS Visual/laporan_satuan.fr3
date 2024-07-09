@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.0.11" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45482,9895437963" ReportOptions.Description.Text="" ReportOptions.LastChange="45483,0091534259" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403480103546F7003800008446174617365747301010C2E00000020446174615365743D22667278646264747374312220446174615365744E616D653D2266727864626474737431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="64,25201" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo16" Left="207,87415" Top="3,77953" Width="272,12616" Height="45,35436" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="times New Roman" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Laporan Data Satuan"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="188,9765" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="3,77953" Top="0" Width="49,13389" Height="22,67718" DataField="id" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;id&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="52,91342" Top="0" Width="102,04731" Height="22,67718" DataField="nik" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;nik&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="154,96073" Top="0" Width="117,16543" Height="22,67718" DataField="nama" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;nama&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="272,12616" Top="0" Width="102,04731" Height="22,67718" DataField="telp" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;telp&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="374,17347" Top="0" Width="113,3859" Height="22,67718" DataField="email" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;email&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="487,55937" Top="0" Width="124,72449" Height="22,67718" DataField="alamat" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;alamat&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="612,28386" Top="0" Width="102,04731" Height="22,67718" DataField="member" DataSet="frxdbdtst1" DataSetName="frxdbdtst1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxdbdtst1.&#34;member&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="272,12616" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="642,5201" Top="0" Width="75,5906" Height="18,89765" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="22,67718" Left="0" Top="105,82684" Width="718,1107">
+      <TfrxMemoView Name="Memo9" Left="3,77953" Top="0" Width="49,13389" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="id"/>
+      <TfrxMemoView Name="Memo10" Left="52,91342" Top="0" Width="102,04731" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="nik"/>
+      <TfrxMemoView Name="Memo11" Left="154,96073" Top="0" Width="117,16543" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="nama"/>
+      <TfrxMemoView Name="Memo12" Left="272,12616" Top="0" Width="102,04731" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="telp"/>
+      <TfrxMemoView Name="Memo13" Left="374,17347" Top="0" Width="113,3859" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="email"/>
+      <TfrxMemoView Name="Memo14" Left="487,55937" Top="0" Width="124,72449" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="alamat"/>
+      <TfrxMemoView Name="Memo15" Left="612,28386" Top="0" Width="102,04731" Height="22,67718" DisplayFormat.DecimalSeparator="," Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="member"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>
